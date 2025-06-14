@@ -1,0 +1,3 @@
+/home/sfcyberbox/Desktop/Software_Projects/C/DuckDB_TEST/CMakeFiles/DuckDB_TEST.dir
+/home/sfcyberbox/Desktop/Software_Projects/C/DuckDB_TEST/CMakeFiles/edit_cache.dir
+/home/sfcyberbox/Desktop/Software_Projects/C/DuckDB_TEST/CMakeFiles/rebuild_cache.dir
