@@ -16,7 +16,7 @@ void handleError(const char * msg, char * outError);
 int main(){
   duckdb_database db;
   duckdb_connection con;
-  const char * dbPath = dbPath(test.db);
+  const char * dbPath = dbPath(test.duckdb);
   char * outError = NULL;
 
   //Attempt to Open Database Output Any Errors
@@ -42,7 +42,7 @@ int main(){
 
 //Output Any Error
 void handleError(const char * msg, char * outError){
-  puts(msg);void handleError(char * msg, char * outerror);
+  puts(msg);
   if (outError){
     puts(outError);
     duckdb_free(outError);
