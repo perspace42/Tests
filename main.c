@@ -11,36 +11,26 @@ Test the DuckDB functions
 
 #define dbPath(NAME) "/home/sfcyberbox/Desktop/Software_Projects/C/DuckDB_TEST/" #NAME
 
+void handleError(const char * msg, char * outError);
+
 int main(){
   duckdb_database db;
   duckdb_connection con;
   const char * dbPath = dbPath(test.db);
-  char * outerror = NULL;
+  char * outError = NULL;
 
   //Attempt to Open Database Output Any Errors
-  if (duckdb_open_ext(dbPath, &db, NULL, &outerror) == DuckDBError){
-    puts("Database Open Error:");
-    if (outerror){
-      puts(outerror);
-      duckdb_free(outerror);
-    }else{
-      puts("No Error Message :(");
-    }
-  //If Successfull
+  if (duckdb_open_ext(dbPath, &db, NULL, &outError) == DuckDBError){
+    //If an error occurs handle it
+    handleError("Database Open Error:",outError);
   }else{
     puts("Database Opened Succssfully");
   }
 
   //Attempt to Connect to Database Output Any Errors
   if (duckdb_connect(db, &con) == DuckDBError) {
-    puts("Database Connection Error:");
-    if (outerror){
-      puts(outerror);
-      duckdb_free(outerror);
-    }else{
-      puts("No Error Message :(");
-    }
-  //If Successfull
+    //If an error occurs handle it
+    handleError("Database Connection Error",outError);
   }else{
     puts("Database Connection Established Successfully");
   }
@@ -48,4 +38,15 @@ int main(){
   //cleanup
   duckdb_disconnect(&con);
   duckdb_close(&db);
+}
+
+//Output Any Error
+void handleError(const char * msg, char * outError){
+  puts(msg);void handleError(char * msg, char * outerror);
+  if (outError){
+    puts(outError);
+    duckdb_free(outError);
+  }else{
+    puts("No Error Information");
+  }
 }
