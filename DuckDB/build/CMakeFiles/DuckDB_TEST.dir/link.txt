@@ -1,1 +1,0 @@
-/usr/bin/cc CMakeFiles/DuckDB_TEST.dir/main.c.o -o DuckDB_TEST   -L/home/sfcyberbox/Documents/Software_Libraries/C/DuckDB/x86_64  -Wl,-rpath,/home/sfcyberbox/Documents/Software_Libraries/C/DuckDB/x86_64 -lduckdb

@@ -1,1 +1,0 @@
-gcc main.c -o main -I "C:\Users\Scott\Desktop\Software Projects\C\Clay Test\include" -L "C:\Users\Scott\Desktop\Software Projects\C\Clay Test\lib" -lraylib -lopengl32 -lgdi32 -lwinmm
