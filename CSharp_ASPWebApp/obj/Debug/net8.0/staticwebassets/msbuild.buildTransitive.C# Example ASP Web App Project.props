@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\C# Example ASP Web App Project.props" />
+</Project>

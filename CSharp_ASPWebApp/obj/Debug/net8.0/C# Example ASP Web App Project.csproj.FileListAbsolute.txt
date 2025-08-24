@@ -1,0 +1,32 @@
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\appsettings.json
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\C# Example ASP Web App Project.exe
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\C# Example ASP Web App Project.deps.json
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\C# Example ASP Web App Project.runtimeconfig.json
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\C# Example ASP Web App Project.dll
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\C# Example ASP Web App Project.pdb
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.csproj.AssemblyReference.cache
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.AssemblyInfoInputs.cache
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.AssemblyInfo.cs
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.csproj.CoreCompileInputs.cache
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\staticwebassets\msbuild.C# Example ASP Web App Project.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\staticwebassets\msbuild.build.C# Example ASP Web App Project.props
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.C# Example ASP Web App Project.props
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.C# Example ASP Web App Project.props
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\scopedcss\bundle\C# Example ASP Web App Project.styles.css
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Examp.53D8BAFE.Up2Date
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.dll
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\refint\C# Example ASP Web App Project.dll
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.pdb
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\C# Example ASP Web App Project.genruntimeconfig.cache
+C:\Users\Scott\Desktop\Software Projects\C# Example ASP Web App Project\obj\Debug\net8.0\ref\C# Example ASP Web App Project.dll
