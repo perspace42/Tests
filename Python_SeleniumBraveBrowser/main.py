@@ -3,24 +3,26 @@ Author: Scott Field
 Date: 08/31/25
 Purpose:
 Test compatibility of Selenium with Brave Browser using the Chromium Driver
+Dependencies:
+- Python3.10
+- Selenium
+- webdriver_manager
+- brave-browser
 '''
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
 
-brave_path = "/usr/bin/brave-browser"
-chromedriver_path = "/usr/bin/chrome-linux64"
-
+# Set Brave browser binary location
 options = Options()
-options.binary_location = brave_path
+options.binary_location = "/usr/bin/brave-browser"
 
-service = Service(executable_path=chromedriver_path)
-driver = webdriver.Chrome(service=service, options=options)
+# Create driver without explicitly specifying driver path or service
+driver = webdriver.Chrome(options=options)
 
+# Use the driver as usual
 driver.get("https://www.selenium.dev/selenium/web/web-form.html")
-
-driver.implicitly_wait(0.5)
+driver.implicitly_wait(0.5)  # implicit wait
 
 text_box = driver.find_element(By.NAME, "my-text")
 submit_button = driver.find_element(By.CSS_SELECTOR, "button")
