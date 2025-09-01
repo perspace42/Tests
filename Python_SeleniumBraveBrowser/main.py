@@ -13,24 +13,29 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-# Set Brave browser binary location
+#Get Brave Browser Location
 options = Options()
 options.binary_location = "/usr/bin/brave-browser"
 
-# Create driver without explicitly specifying driver path or service
+#Use Chrome Driver For Brave Browser
 driver = webdriver.Chrome(options=options)
 
-# Use the driver as usual
+#Use Driver To Get Form
 driver.get("https://www.selenium.dev/selenium/web/web-form.html")
-driver.implicitly_wait(0.5)  # implicit wait
+driver.implicitly_wait(0.5)
 
+#Use Driver To Get Form Elements
 text_box = driver.find_element(By.NAME, "my-text")
 submit_button = driver.find_element(By.CSS_SELECTOR, "button")
 
+#Send Data To Form Elements & Submit
 text_box.send_keys("Selenium")
 submit_button.click()
 
+#Get Message Back From Form
 message = driver.find_element(By.ID, "message")
+
+#Print Message To Terminal
 print(message.text)
 
 driver.quit()
