@@ -1,6 +1,6 @@
 '''
 Author: Scott Field
-Date: 08/31/25
+Date: 09/01/25
 Purpose:
 Test compatibility of Selenium with Brave Browser using the Chromium Driver
 Dependencies:
@@ -38,4 +38,5 @@ message = driver.find_element(By.ID, "message")
 #Print Message To Terminal
 print(message.text)
 
+#Ends WebDriver Session (Avoid Memory Leak)
 driver.quit()
