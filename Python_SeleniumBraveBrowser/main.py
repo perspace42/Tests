@@ -6,7 +6,6 @@ Test compatibility of Selenium with Brave Browser using the Chromium Driver
 Dependencies:
 - Python3.10
 - Selenium
-- webdriver_manager
 - brave-browser
 '''
 from selenium import webdriver
