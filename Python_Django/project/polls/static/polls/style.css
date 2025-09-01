@@ -1,0 +1,9 @@
+/*For the polls lists*/
+li a {
+    color: green;
+}
+
+/*For the website background image*/
+body {
+    background: white url("images/gradient background.png");
+}
